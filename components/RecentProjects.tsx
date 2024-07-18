@@ -26,8 +26,7 @@ const RecentProjects = () => {
       <div className="tab-background"></div>
 
       <h1 className="heading">
-        A small selection of{" "}
-        <span className="text-purple">recent projects</span>
+        30 Industrial Level Personal <span className="text-purple"> Projects</span>
       </h1>
 
       {/* Tab Buttons */}
@@ -36,19 +35,31 @@ const RecentProjects = () => {
           onClick={() => handleTabClick(1)}
           className={`tab-button ${activeTab === 1 ? "active" : ""}`}
         >
-          Tab 1
+          Colection 1
         </button>
         <button
           onClick={() => handleTabClick(2)}
           className={`tab-button ${activeTab === 2 ? "active" : ""}`}
         >
-          Tab 2
+          Colection 2
         </button>
         <button
           onClick={() => handleTabClick(3)}
           className={`tab-button ${activeTab === 3 ? "active" : ""}`}
         >
-          Tab 3
+          Colection 3
+        </button>
+        <button
+          onClick={() => handleTabClick(4)}
+          className={`tab-button ${activeTab === 4 ? "active" : ""}`}
+        >
+          Colection 4
+        </button>
+        <button
+          onClick={() => handleTabClick(5)}
+          className={`tab-button ${activeTab === 5 ? "active" : ""}`}
+        >
+          Colection 5
         </button>
       </div>
 
@@ -141,6 +152,20 @@ const RecentProjects = () => {
               <div className="flex items-center justify-center">
                 {/* Content for Tab 3 */}
                 <p>Tab 3 content goes here.</p>
+              </div>
+            )}
+
+             {activeTab === 4 && (
+              <div className="flex items-center justify-center">
+                {/* Content for Tab 3 */}
+                <p>Tab 4 content goes here.</p>
+              </div>
+            )}
+
+             {activeTab === 5 && (
+              <div className="flex items-center justify-center">
+                {/* Content for Tab 3 */}
+                <p>Tab 5 content goes here.</p>
               </div>
             )}
           </div>
