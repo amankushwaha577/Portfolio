@@ -3,6 +3,7 @@
   margin-top: 3rem; /* Increase space above the tabs */
   margin-bottom: 3rem; /* Optional: add space below the buttons */
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   position: relative;
   z-index: 10;
@@ -11,19 +12,21 @@
 /* Tab Buttons */
 .tab-button {
   position: relative;
-  padding: 1rem 2rem;
-  margin: 0 1rem;
+  padding: 0.75rem 1.5rem;
+  margin: 0.5rem;
   border: none;
-  background: #eee;
+  background: linear-gradient(135deg, #e0e0e0, #f5f5f5);
   border-radius: 8px;
   font-size: 1rem;
   font-weight: 600;
   color: #333;
   cursor: pointer;
-  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
   overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* Active Tab Button */
 .tab-button.active {
   background: #6d28d9; /* Purple for active tab */
   color: white;
@@ -31,6 +34,7 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
+/* Active Tab Indicator */
 .tab-button::before {
   content: '';
   position: absolute;
@@ -43,64 +47,33 @@
   transition: transform 0.3s ease;
 }
 
+/* Transition for Active Tab */
 .tab-button.active::before {
   transform: translateX(-50%) scaleX(1);
 }
 
-/* Tab Content */
-.tab-content {
-  opacity: 0;
-  transform: scale(0.95);
-  transition: opacity 0.5s ease, transform 0.5s ease;
-}
-
-.tab-content.enter {
-  opacity: 1;
-  transform: scale(1);
-}
-
-.tab-content.exit {
-  opacity: 0;
-  transform: scale(0.95);
-}
-
-/* Cool Background Animation */
-.tab-background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(135deg, rgba(0,0,0,0.2), rgba(255,255,255,0.2));
-  animation: backgroundAnimation 15s infinite linear;
-}
-
-@keyframes backgroundAnimation {
-  0% { background-position: 0% 0%; }
-  50% { background-position: 100% 100%; }
-  100% { background-position: 0% 0%; }
-}
-
 /* Hover Effect for Tab Buttons */
 .tab-button:hover {
-  background: #d1d1d1;
+  background: linear-gradient(135deg, #d1d1d1, #e0e0e0);
   transform: scale(1.05);
 }
 
+/* Active Effect for Tab Buttons */
 .tab-button:active {
-  background: #b0b0b0;
+  background: linear-gradient(135deg, #b0b0b0, #d1d1d1);
 }
 
-/* Enhanced Background Animation for Content Area */
-.tab-content-background {
-  position: relative;
-  overflow: hidden;
-  border-radius: 12px;
-  background: linear-gradient(135deg, #13162D, #4B0082);
-  animation: gradientAnimation 10s infinite linear;
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .tab-button {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+  }
 }
 
-@keyframes gradientAnimation {
-  0% { background-position: 0% 0%; }
-  100% { background-position: 100% 100%; }
+@media (max-width: 480px) {
+  .tab-button {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.75rem;
+  }
 }

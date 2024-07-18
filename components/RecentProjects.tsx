@@ -10,7 +10,7 @@ const RecentProjects = () => {
   const [activeTab, setActiveTab] = useState(1);
   const [animating, setAnimating] = useState(false);
 
-  const handleTabClick = (tabNumber:number) => {
+  const handleTabClick = (tabNumber: any) => {
     if (tabNumber !== activeTab) {
       setAnimating(true);
       setTimeout(() => {
