@@ -82,7 +82,7 @@ export const projects = [
       "/js.svg",
       "/html.svg",
       "/bootstrap.svg",
-      "/fm.svg",
+      "/auth.svg",
     ],
     link: "https://github.com/amankushwaha577/Friend-s-Spy",
   },
