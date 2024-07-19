@@ -75,7 +75,15 @@ export const projects = [
     title: "Friend's Spy",
     des: "Let's Create Our Own Social World",
     img: "/friendsspy.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLists: [
+      "/node.svg",
+      "/re.svg",
+      "/mongo.svg",
+      "/js.svg",
+      "/html.svg",
+      "/bootstrap.svg",
+      "/fm.svg",
+    ],
     link: "https://github.com/amankushwaha577/Friend-s-Spy",
   },
   {
