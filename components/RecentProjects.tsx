@@ -26,7 +26,8 @@ const RecentProjects = () => {
       <div className="tab-background"></div>
 
       <h1 className="heading">
-        30 Industrial Level Personal <span className="text-purple"> Projects</span>
+        30 Industrial Level Personal{" "}
+        <span className="text-purple"> Projects</span>
       </h1>
 
       {/* Tab Buttons */}
@@ -82,8 +83,8 @@ const RecentProjects = () => {
                     key={item.id}
                   >
                     <PinContainer
-                      title="/ui.aceternity.com"
-                      href="https://twitter.com/mannupaaji"
+                      title="https://github.com/amankushwaha577/"
+                      href="https://github.com/amankushwaha577/"
                     >
                       <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                         <div
@@ -155,14 +156,14 @@ const RecentProjects = () => {
               </div>
             )}
 
-             {activeTab === 4 && (
+            {activeTab === 4 && (
               <div className="flex items-center justify-center">
                 {/* Content for Tab 3 */}
                 <p>Tab 4 content goes here.</p>
               </div>
             )}
 
-             {activeTab === 5 && (
+            {activeTab === 5 && (
               <div className="flex items-center justify-center">
                 {/* Content for Tab 3 */}
                 <p>Tab 5 content goes here.</p>
