@@ -217,6 +217,21 @@ export const projects = [
     ],
     link: "https://github.com/amankushwaha577/Friend-s-Spy",
   },
+  {
+    id: 10,
+    title: "Meta Dimension",
+    des: "A cloud based (AWS ) Web Application for online learners with variety of Feautures.",
+    img: "/metadimension.png",
+    iconLists: [
+      "/framer.svg",
+      "/next.svg",
+      "/re.svg",
+      "/js.svg",
+      "/html.svg",
+      "/auth.svg",
+    ],
+    link: "https://github.com/amankushwaha577/Friend-s-Spy",
+  },
 ];
 
 export const testimonials = [
