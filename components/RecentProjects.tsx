@@ -31,28 +31,28 @@ const RecentProjects = () => {
 
       <div className="tab-buttons-container">
         <button
-          onClick={() => handleTabClick(1)}
-          className={`tab-button ${activeTab === 1 ? "active" : ""}`}
+          onClick={() => handleTabClick(4)}
+          className={`tab-button ${activeTab === 4 ? "active" : ""}`}
         >
-          Collection 1 (10 Projects) : 2020 - 2021
-        </button>
-        <button
-          onClick={() => handleTabClick(2)}
-          className={`tab-button ${activeTab === 2 ? "active" : ""}`}
-        >
-          Collection 2 (10 Projects) : 2022 - 2023
+          Collection 4 (Upcoming Projects)
         </button>
         <button
           onClick={() => handleTabClick(3)}
           className={`tab-button ${activeTab === 3 ? "active" : ""}`}
         >
-          Collection 3 (5 Projects) : 2024
+          Collection 3 (10 Projects) : 2021 - 2023
         </button>
         <button
-          onClick={() => handleTabClick(4)}
-          className={`tab-button ${activeTab === 4 ? "active" : ""}`}
+          onClick={() => handleTabClick(2)}
+          className={`tab-button ${activeTab === 2 ? "active" : ""}`}
         >
-          Collection 4 (Upcoming Projects)
+          Collection 2 (10 Projects) : 2020 - 2021
+        </button>
+        <button
+          onClick={() => handleTabClick(1)}
+          className={`tab-button ${activeTab === 1 ? "active" : ""}`}
+        >
+          Collection 1 (10 Projects) : 2019
         </button>
       </div>
 
@@ -67,7 +67,14 @@ const RecentProjects = () => {
           }}
         >
           <div className="tab-content-background p-4">
-            {activeTab === 1 && (
+            {activeTab === 4 && (
+              <div className="flex items-center justify-center">
+                {/* Content for Tab 2 */}
+                <p>Tab 1 content goes here.</p>
+              </div>
+            )}
+
+            {activeTab === 3 && (
               <div className="flex flex-wrap items-center justify-center gap-16 mt-10">
                 {projects.map((item) => (
                   <div
@@ -136,25 +143,18 @@ const RecentProjects = () => {
 
             {activeTab === 2 && (
               <div className="flex items-center justify-center">
-                {/* Content for Tab 2 */}
-                <p>Tab 2 content goes here.</p>
-              </div>
-            )}
-
-            {activeTab === 3 && (
-              <div className="flex items-center justify-center">
                 {/* Content for Tab 3 */}
-                <p>Tab 3 content goes here.</p>
+                <p>Tab 4 content goes here.</p>
               </div>
             )}
-
-            {activeTab === 4 && (
+          
+           {activeTab === 1 && (
               <div className="flex items-center justify-center">
                 {/* Content for Tab 3 */}
                 <p>Tab 4 content goes here.</p>
               </div>
             )}
-          </div>
+            </div>
         </div>
       </div>
     </div>
