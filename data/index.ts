@@ -73,7 +73,7 @@ export const projects = [
   {
     id: 1,
     title: "Friend's Spy",
-    des: "Let's Create Our Own Social World",
+    des: "Let's Create Our Own Social World with colleague.",
     img: "/friendsspy.png",
     iconLists: [
       "/node.svg",
@@ -88,10 +88,18 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    title: "Spectrum",
+    des: "Step into our store and find your happy place.",
+    img: "/spectrum.png",
+    iconLists: [
+      "/node.svg",
+      "/re.svg",
+      "/mongo.svg",
+      "/js.svg",
+      "/html.svg",
+      "/bootstrap.svg",
+      "/c.svg",
+    ],
     link: "/ui.yoom.com",
   },
   {
