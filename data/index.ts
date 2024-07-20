@@ -225,8 +225,8 @@ export const projects = [
     iconLists: [
       "/framer.svg",
       "/next.svg",
-      "/re.svg",
       "/js.svg",
+      "/ts.svg",
       "/html.svg",
       "/auth.svg",
     ],
