@@ -155,8 +155,8 @@ export const projects = [
   },
   {
     id: 6,
-    title: "Google Search",
-    des: "The cutting-edge movie and TV show app built with the power of React and Redux! Dive into a world of limitless entertainment at your fingertips",
+    title: "Google Search Engine",
+    des: "Custom search tool similar to Google, allowing users to search the web directly from the application, built with user-friendly features.",
     img: "/google.png",
     iconLists: [
       "/vite.svg",
