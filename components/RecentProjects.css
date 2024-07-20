@@ -30,7 +30,7 @@
 .tab-button.active {
   background: #6d28d9; /* Purple for active tab */
   color: white;
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
@@ -76,4 +76,49 @@
     padding: 0.5rem 0.75rem;
     font-size: 0.75rem;
   }
+}
+
+/* Animation Keyframes */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideOut {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+/* Tab Content */
+.tab-content.enter {
+  animation: slideIn 0.5s ease forwards;
+}
+
+.tab-content.exit {
+  animation: slideOut 0.5s ease forwards;
+}
+
+/* Background Animation */
+.tab-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #fead99, #feb47b);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+  z-index: -1;
+  opacity: 0.3;
 }

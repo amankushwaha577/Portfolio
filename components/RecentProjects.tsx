@@ -1,5 +1,4 @@
 "use client";
-
 import { useState } from "react";
 import { FaLocationArrow } from "react-icons/fa6";
 import { projects } from "@/data";
@@ -30,37 +29,30 @@ const RecentProjects = () => {
         <span className="text-purple"> Projects</span>
       </h1>
 
-      {/* Tab Buttons */}
       <div className="tab-buttons-container">
         <button
           onClick={() => handleTabClick(1)}
           className={`tab-button ${activeTab === 1 ? "active" : ""}`}
         >
-          Colection 1
+          Collection 1 (10 Projects) : 2019 - 2021
         </button>
         <button
           onClick={() => handleTabClick(2)}
           className={`tab-button ${activeTab === 2 ? "active" : ""}`}
         >
-          Colection 2
+          Collection 2 (10 Projects) : 2022 - 2023
         </button>
         <button
           onClick={() => handleTabClick(3)}
           className={`tab-button ${activeTab === 3 ? "active" : ""}`}
         >
-          Colection 3
+          Collection 3 (5 Projects) : 2024
         </button>
         <button
           onClick={() => handleTabClick(4)}
           className={`tab-button ${activeTab === 4 ? "active" : ""}`}
         >
-          Colection 4
-        </button>
-        <button
-          onClick={() => handleTabClick(5)}
-          className={`tab-button ${activeTab === 5 ? "active" : ""}`}
-        >
-          Colection 5
+          Collection 3 (Upcoming Projects)
         </button>
       </div>
 
@@ -160,13 +152,6 @@ const RecentProjects = () => {
               <div className="flex items-center justify-center">
                 {/* Content for Tab 3 */}
                 <p>Tab 4 content goes here.</p>
-              </div>
-            )}
-
-            {activeTab === 5 && (
-              <div className="flex items-center justify-center">
-                {/* Content for Tab 3 */}
-                <p>Tab 5 content goes here.</p>
               </div>
             )}
           </div>
