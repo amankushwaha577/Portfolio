@@ -54,7 +54,7 @@
 
 /* Hover Effect for Tab Buttons */
 .tab-button:hover {
-  background: linear-gradient(135deg, #d1d1d1, #e0e0e0);
+  background: linear-gradient(135deg, #6c25de, #6200ff);
   transform: scale(1.05);
 }
 
