@@ -34,7 +34,7 @@ const RecentProjects = () => {
           onClick={() => handleTabClick(4)}
           className={`tab-button ${activeTab === 4 ? "active" : ""}`}
         >
-          Collection 4 (Upcoming Projects) : 20
+          Collection 4 (Upcoming Projects) : 2024
         </button>
         <button
           onClick={() => handleTabClick(3)}
