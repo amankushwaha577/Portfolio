@@ -6,7 +6,7 @@ import { PinContainer } from "./ui/Pin";
 import "./RecentProjects.css"; // Ensure to import the CSS file
 
 const RecentProjects = () => {
-  const [activeTab, setActiveTab] = useState(1);
+  const [activeTab, setActiveTab] = useState(3);
   const [animating, setAnimating] = useState(false);
 
   const handleTabClick = (tabNumber: any) => {
@@ -34,7 +34,7 @@ const RecentProjects = () => {
           onClick={() => handleTabClick(4)}
           className={`tab-button ${activeTab === 4 ? "active" : ""}`}
         >
-          Collection 4 (Upcoming Projects)
+          Collection 4 (Upcoming Projects) : 20
         </button>
         <button
           onClick={() => handleTabClick(3)}
@@ -147,14 +147,14 @@ const RecentProjects = () => {
                 <p>Tab 4 content goes here.</p>
               </div>
             )}
-          
-           {activeTab === 1 && (
+
+            {activeTab === 1 && (
               <div className="flex items-center justify-center">
                 {/* Content for Tab 3 */}
                 <p>Tab 4 content goes here.</p>
               </div>
             )}
-            </div>
+          </div>
         </div>
       </div>
     </div>
