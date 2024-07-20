@@ -26,7 +26,7 @@ const RecentProjects = () => {
 
       <h1 className="heading">
         30 Industrial Level Personal{" "}
-        <span className="text-purple"> Projects</span>
+        <span className="text-purple">Mega Projects</span>
       </h1>
 
       <div className="tab-buttons-container">
@@ -52,7 +52,7 @@ const RecentProjects = () => {
           onClick={() => handleTabClick(4)}
           className={`tab-button ${activeTab === 4 ? "active" : ""}`}
         >
-          Collection 3 (Upcoming Projects)
+          Collection 4 (Upcoming Projects)
         </button>
       </div>
 
