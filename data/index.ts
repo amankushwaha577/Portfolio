@@ -77,6 +77,7 @@ export const projects = [
     img: "/friendsspy.png",
     iconLists: [
       "/node.svg",
+      "/express.svg",
       "/re.svg",
       "/mongo.svg",
       "/js.svg",
@@ -93,6 +94,7 @@ export const projects = [
     img: "/spectrum.png",
     iconLists: [
       "/node.svg",
+      "/express.svg",
       "/re.svg",
       "/mongo.svg",
       "/js.svg",
@@ -109,6 +111,7 @@ export const projects = [
     img: "/wellspring.png",
     iconLists: [
       "/node.svg",
+      "/express.svg",
       "/re.svg",
       "/mongo.svg",
       "/js.svg",
@@ -138,7 +141,16 @@ export const projects = [
     title: "Animated Apple Iphone 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: [
+      "/node.svg",
+      "/express.svg",
+      "/next.svg",
+      "/re.svg",
+      "/mongo.svg",
+      "/tail.svg",
+      "/js.svg",
+      "/html.svg",
+    ],
     link: "/ui.apple.com",
   },
 ];
