@@ -187,18 +187,35 @@ export const projects = [
   {
     id: 8,
     title: "Alphazone",
-    des: "Website for Providing hand written notes ,standard notes and video lecture series for Btech Studens.",
+    des: "Website for Providing hand written notes for GLA University Btech Students.",
     img: "/alphazone.png",
     iconLists: [
       "/stream.svg",
       "/gsap.svg",
       "/three.svg",
-      "/js.svg", 
+      "/js.svg",
       "/html.svg",
-      "/scss.svg", 
+      "/scss.svg",
       "/api.svg",
     ],
     link: "/ui.apple.com",
+  },
+  {
+    id: 9,
+    title: "Academic Earth",
+    des: "A cloud based (AWS ) Web Application for online learners with variety of Feautures.",
+    img: "/academicEarth.png",
+    iconLists: [
+      "/aws.svg",
+      "/node.svg",
+      "/express.svg",
+      "/re.svg",
+      "/mongo.svg",
+      "/js.svg",
+      "/html.svg",
+      "/auth.svg",
+    ],
+    link: "https://github.com/amankushwaha577/Friend-s-Spy",
   },
 ];
 
