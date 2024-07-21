@@ -234,6 +234,24 @@ export const projects3 = [
   },
 ];
 
+export const projects2 = [
+  {
+    id: 1,
+    title: "MusicOn",
+    des: "Let's Create Our Own Social World with colleague.",
+    img: "/musicon.png",
+    iconLists: ["/js.svg", "/html.svg", "/bootstrap.svg", "/auth.svg"],
+    link: "https://github.com/amankushwaha577/Friend-s-Spy",
+  },
+  {
+    id: 2,
+    title: "Devfolio",
+    des: "Step into our store and find your happy place.",
+    img: "/devfolio.png",
+    iconLists: ["/js.svg", "/html.svg", "/bootstrap.svg", "/c.svg"],
+    link: "/ui.yoom.com",
+  },
+];
 export const projects1 = [
   {
     id: 1,
