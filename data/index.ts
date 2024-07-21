@@ -243,7 +243,7 @@ export const projects2 = [
     iconLists: ["/js.svg", "/html.svg", "/bootstrap.svg", "/auth.svg"],
     link: "https://github.com/amankushwaha577/Friend-s-Spy",
   },
-  {
+  { 
     id: 2,
     title: "Devfolio",
     des: "Step into our store and find your happy place.",
@@ -251,7 +251,14 @@ export const projects2 = [
     iconLists: ["/js.svg", "/html.svg", "/bootstrap.svg", "/c.svg"],
     link: "/ui.yoom.com",
   },
-];
+ {
+    id: 3,
+    title: "Portfolio",
+    des: "Step into our store and find your happy place.",
+    img: "/portfolio.png",
+    iconLists: ["/js.svg", "/html.svg", "/bootstrap.svg", "/c.svg"],
+    link: "/ui.yoom.com",
+  },];
 export const projects1 = [
   {
     id: 1,
