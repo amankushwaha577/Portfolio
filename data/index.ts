@@ -251,38 +251,6 @@ export const projects1 = [
     iconLists: ["/js.svg", "/html.svg", "/bootstrap.svg", "/c.svg"],
     link: "/ui.yoom.com",
   },
-  {
-    id: 3,
-    title: "WellSpring",
-    des: "A REAL Software-as-a-Service app with AI features make it easier, faster to connect with everyone.",
-    img: "/wellspring.png",
-    iconLists: [
-      "/node.svg",
-      "/express.svg",
-      "/re.svg",
-      "/mongo.svg",
-      "/js.svg",
-      "/html.svg",
-      "/bootstrap.svg",
-      "socket.svg",
-    ],
-    link: "/ui.aiimg.com",
-  },
-  {
-    id: 4,
-    title: "MovieTimes",
-    des: "The cutting-edge movie and TV show app built with the power of React and Redux! Dive into a world of limitless entertainment at your fingertips",
-    img: "/movietimes.png",
-    iconLists: [
-      "/vite.svg",
-      "/re.svg",
-      "/redux.svg",
-      "/js.svg",
-      "/html.svg",
-      "/scss.svg",
-    ],
-    link: "/ui.apple.com",
-  },
 ];
 
 export const testimonials = [
