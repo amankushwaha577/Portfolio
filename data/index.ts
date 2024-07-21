@@ -69,7 +69,7 @@ export const gridItems = [
   },
 ];
 
-export const projects = [
+export const projects3 = [
   {
     id: 1,
     title: "Friend's Spy",
@@ -231,6 +231,57 @@ export const projects = [
       "/auth.svg",
     ],
     link: "https://github.com/amankushwaha577/Friend-s-Spy",
+  },
+];
+
+export const projects1 = [
+  {
+    id: 1,
+    title: "SoftPedia",
+    des: "Let's Create Our Own Social World with colleague.",
+    img: "/softpedia.png",
+    iconLists: ["/js.svg", "/html.svg", "/bootstrap.svg", "/auth.svg"],
+    link: "https://github.com/amankushwaha577/Friend-s-Spy",
+  },
+  {
+    id: 2,
+    title: "GLAMS",
+    des: "Step into our store and find your happy place.",
+    img: "/GLAMS.png",
+    iconLists: ["/js.svg", "/html.svg", "/bootstrap.svg", "/c.svg"],
+    link: "/ui.yoom.com",
+  },
+  {
+    id: 3,
+    title: "WellSpring",
+    des: "A REAL Software-as-a-Service app with AI features make it easier, faster to connect with everyone.",
+    img: "/wellspring.png",
+    iconLists: [
+      "/node.svg",
+      "/express.svg",
+      "/re.svg",
+      "/mongo.svg",
+      "/js.svg",
+      "/html.svg",
+      "/bootstrap.svg",
+      "socket.svg",
+    ],
+    link: "/ui.aiimg.com",
+  },
+  {
+    id: 4,
+    title: "MovieTimes",
+    des: "The cutting-edge movie and TV show app built with the power of React and Redux! Dive into a world of limitless entertainment at your fingertips",
+    img: "/movietimes.png",
+    iconLists: [
+      "/vite.svg",
+      "/re.svg",
+      "/redux.svg",
+      "/js.svg",
+      "/html.svg",
+      "/scss.svg",
+    ],
+    link: "/ui.apple.com",
   },
 ];
 
