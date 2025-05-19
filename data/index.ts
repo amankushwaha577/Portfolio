@@ -363,7 +363,7 @@ export const workExperience = [
   {
     id: 3,
     title: "30+ Industrial Project Support",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    desc: "Designed and developed Web application since college time.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
